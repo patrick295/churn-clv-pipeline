@@ -83,36 +83,7 @@ Power BI Dashboard
 | Scheduling          | Snowflake Tasks |
 | Visualization       | Power BI        |
 
----
 
-# Repository Structure
-
-```text
-customer-churn-clv-pipeline/
-
-│
-├── sql/
-│   ├── 01_customer_orders_base.sql
-│   ├── 02_customer_predictions.sql
-│   └── 03_refresh_task.sql
-│
-├── python/
-│   ├── connect.py
-│   ├── feature_engineering.py
-│   ├── train_model.py
-│   └── deploy_udf.py
-│
-├── docs/
-│   ├── architecture.png
-│   ├── dashboard.png
-│   └── pipeline.png
-│
-├── .env.example
-├── requirements.txt
-└── README.md
-```
-
----
 
 # Machine Learning Workflow
 
